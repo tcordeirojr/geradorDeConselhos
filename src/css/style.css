@@ -1,0 +1,73 @@
+
+body{
+    display: flex;
+    position: relative;
+    max-width: 1440px;
+    max-height: 320px;
+    background-color: hsl(217,19%,16%);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 30%;
+    top: 150px;
+    background-color:hsl(217, 19%, 24%);
+    width: 550px;
+    height: 350px;
+
+}
+
+.barraSeparacao svg{
+    position: relative;
+    height:150px ;
+    left: 10%;
+    top: 30%;
+}
+.attribution {
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    top: 620px;
+    left: 40%;
+    font-size: 11px; 
+    text-align: center;
+} 
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+button{
+    display: flex;
+    position: relative;
+    width: 60px;
+    min-height: 60px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    left: 45%;
+    bottom: 10%;
+    background-color: hsl(150, 100%, 66%);
+    cursor: pointer;
+}
+
+.info1{
+    display: flex;
+    position: relative;
+    color: hsl(150, 100%, 66%);
+    justify-content: center;
+    align-items: flex-end;
+    top: 30px;
+    font-family: 'manrope',sans-serif;
+}
+.info2{
+    display: flex;
+    position: relative;
+    color:hsl(193, 38%, 86%) ;
+    font-size: 25px;
+    font-family: 'manrope',sans-serif;
+    text-align: center;
+    width: 360px;
+    height: 350px;
+    left: 17%;
+    top: 10%;
+}
